@@ -1,0 +1,44 @@
+# Dockerfile for syngen on Apple Silicon (ARM64)
+# Based on official syngen installation guide for MacOS ARM (M1/M2)
+# Build with: docker build --platform linux/arm64 -t syngen-arm64 -f docker/Dockerfile.arm64 .
+
+FROM --platform=linux/arm64 python:3.11-slim
+
+LABEL maintainer="Elitea Platform"
+LABEL description="Syngen synthetic data generator for ARM64 (Apple Silicon)"
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create syngen user
+RUN useradd -m -s /bin/bash syngen
+WORKDIR /src
+
+# Upgrade pip and install build tools
+RUN pip install --upgrade pip && \
+    pip install setuptools wheel 'Cython<3'
+
+# Install fastavro with specific version to avoid build issues
+RUN pip install --no-build-isolation fastavro==1.5.1
+
+# Install syngen
+RUN pip install syngen
+
+# Note: tensorflow-metal is macOS-specific and won't work in Linux containers
+# For ARM64 Linux, we use tensorflow which has ARM support
+# The container will use CPU-based tensorflow which works on ARM64 Linux
+
+# Set up model artifacts directory
+RUN mkdir -p /src/model_artifacts && chown -R syngen:syngen /src
+
+USER syngen
+
+# Set working directory
+WORKDIR /src
+
+# Use bash as default - train and infer commands are available as CLI tools
+ENTRYPOINT ["/bin/bash", "-c"]
+CMD ["tail -f /dev/null"]

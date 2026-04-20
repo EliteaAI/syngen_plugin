@@ -1,0 +1,101 @@
+id,name,age,city,product,price,quantity,rating
+1,Alice,28,New York,Laptop,899.99,1,4.5
+2,Bob,35,Los Angeles,Phone,599.99,2,4.8
+3,Charlie,42,Chicago,Tablet,399.99,1,4.2
+4,Diana,31,Houston,Monitor,299.99,2,4.6
+5,Eve,29,Phoenix,Keyboard,79.99,3,4.7
+6,Frank,45,Philadelphia,Mouse,49.99,5,4.4
+7,Grace,38,San Antonio,Headphones,149.99,1,4.9
+8,Henry,33,San Diego,Webcam,89.99,2,4.3
+9,Iris,27,Dallas,Speaker,129.99,1,4.5
+10,Jack,41,San Jose,Laptop,899.99,1,4.6
+11,Kate,30,Austin,Phone,599.99,1,4.8
+12,Liam,36,Jacksonville,Tablet,399.99,2,4.4
+13,Mia,32,Fort Worth,Monitor,299.99,1,4.7
+14,Noah,44,Columbus,Keyboard,79.99,2,4.5
+15,Olivia,28,Charlotte,Mouse,49.99,4,4.6
+16,Paul,39,San Francisco,Headphones,149.99,1,4.9
+17,Quinn,34,Indianapolis,Webcam,89.99,1,4.2
+18,Ruby,31,Seattle,Speaker,129.99,2,4.8
+19,Sam,40,Denver,Laptop,899.99,1,4.7
+20,Tina,29,Washington,Phone,599.99,2,4.5
+21,Uma,37,Boston,Tablet,399.99,1,4.3
+22,Victor,43,Nashville,Monitor,299.99,2,4.6
+23,Wendy,30,Detroit,Keyboard,79.99,3,4.8
+24,Xavier,35,Portland,Mouse,49.99,5,4.4
+25,Yara,32,Las Vegas,Headphones,149.99,1,4.9
+26,Zack,41,Memphis,Webcam,89.99,2,4.5
+27,Amy,28,Louisville,Speaker,129.99,1,4.7
+28,Ben,38,Baltimore,Laptop,899.99,1,4.6
+29,Cara,33,Milwaukee,Phone,599.99,2,4.8
+30,Dan,42,Albuquerque,Tablet,399.99,1,4.4
+31,Ella,31,Tucson,Monitor,299.99,2,4.5
+32,Finn,36,Fresno,Keyboard,79.99,3,4.7
+33,Gina,29,Sacramento,Mouse,49.99,4,4.6
+34,Hugo,44,Mesa,Headphones,149.99,1,4.9
+35,Ivy,34,Kansas City,Webcam,89.99,2,4.3
+36,Jake,39,Atlanta,Speaker,129.99,1,4.8
+37,Kara,32,Colorado Springs,Laptop,899.99,1,4.5
+38,Leo,40,Raleigh,Phone,599.99,2,4.7
+39,Maya,30,Omaha,Tablet,399.99,1,4.6
+40,Nate,37,Miami,Monitor,299.99,2,4.4
+41,Olive,28,Oakland,Keyboard,79.99,3,4.8
+42,Pete,43,Minneapolis,Mouse,49.99,5,4.5
+43,Quincy,35,Tulsa,Headphones,149.99,1,4.9
+44,Rose,31,Arlington,Webcam,89.99,2,4.7
+45,Steve,41,New Orleans,Speaker,129.99,1,4.6
+46,Tara,33,Wichita,Laptop,899.99,1,4.8
+47,Umar,38,Cleveland,Phone,599.99,2,4.4
+48,Vera,29,Tampa,Tablet,399.99,1,4.5
+49,Walt,42,Bakersfield,Monitor,299.99,2,4.7
+50,Xena,36,Aurora,Keyboard,79.99,3,4.6
+51,Yale,32,Anaheim,Mouse,49.99,4,4.8
+52,Zara,40,Honolulu,Headphones,149.99,1,4.9
+53,Adam,34,Santa Ana,Webcam,89.99,2,4.3
+54,Beth,31,Corpus Christi,Speaker,129.99,1,4.7
+55,Carl,39,Riverside,Laptop,899.99,1,4.5
+56,Dora,28,Lexington,Phone,599.99,2,4.6
+57,Eric,44,Stockton,Tablet,399.99,1,4.8
+58,Faye,35,Henderson,Monitor,299.99,2,4.4
+59,Greg,30,Saint Paul,Keyboard,79.99,3,4.7
+60,Hope,37,Cincinnati,Mouse,49.99,5,4.5
+61,Ivan,41,Pittsburgh,Headphones,149.99,1,4.9
+62,Jane,33,Greensboro,Webcam,89.99,2,4.6
+63,Kyle,38,Anchorage,Speaker,129.99,1,4.8
+64,Lena,29,Plano,Laptop,899.99,1,4.4
+65,Mark,42,Lincoln,Phone,599.99,2,4.7
+66,Nina,32,Orlando,Tablet,399.99,1,4.5
+67,Otto,36,Irvine,Monitor,299.99,2,4.6
+68,Pam,31,Newark,Keyboard,79.99,3,4.8
+69,Quin,40,Durham,Mouse,49.99,4,4.4
+70,Rita,34,Chula Vista,Headphones,149.99,1,4.9
+71,Seth,39,Toledo,Webcam,89.99,2,4.5
+72,Tess,28,Fort Wayne,Speaker,129.99,1,4.7
+73,Ursa,43,St Petersburg,Laptop,899.99,1,4.6
+74,Vince,35,Laredo,Phone,599.99,2,4.8
+75,Wade,30,Jersey City,Tablet,399.99,1,4.3
+76,Xyla,37,Chandler,Monitor,299.99,2,4.5
+77,York,41,Madison,Keyboard,79.99,3,4.7
+78,Zoe,33,Lubbock,Mouse,49.99,5,4.6
+79,Alan,38,Norfolk,Headphones,149.99,1,4.9
+80,Bianca,29,Reno,Webcam,89.99,2,4.4
+81,Cole,42,Winston-Salem,Speaker,129.99,1,4.8
+82,Dana,32,Glendale,Laptop,899.99,1,4.5
+83,Evan,36,Hialeah,Phone,599.99,2,4.7
+84,Faith,31,Garland,Tablet,399.99,1,4.6
+85,Gary,44,Scottsdale,Monitor,299.99,2,4.4
+86,Holly,34,Irving,Keyboard,79.99,3,4.8
+87,Ian,40,Chesapeake,Mouse,49.99,4,4.5
+88,Jade,28,North Las Vegas,Headphones,149.99,1,4.9
+89,Kent,39,Fremont,Webcam,89.99,2,4.7
+90,Lily,35,Gilbert,Speaker,129.99,1,4.6
+91,Max,30,Boise,Laptop,899.99,1,4.8
+92,Nell,37,Richmond,Phone,599.99,2,4.4
+93,Owen,41,San Bernardino,Tablet,399.99,1,4.5
+94,Piper,33,Spokane,Monitor,299.99,2,4.7
+95,Quinton,38,Des Moines,Keyboard,79.99,3,4.6
+96,Rhea,29,Tacoma,Mouse,49.99,5,4.8
+97,Simon,42,Modesto,Headphones,149.99,1,4.9
+98,Tracy,32,Fontana,Webcam,89.99,2,4.3
+99,Ulric,36,Birmingham,Speaker,129.99,1,4.7
+100,Violet,31,Fayetteville,Laptop,899.99,1,4.5

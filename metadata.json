@@ -1,0 +1,9 @@
+{
+  "name": "Host for tools: syngen",
+  "version": "0.1",
+  "depends_on": [],
+  "init_after": [],
+  "version_requirements": {
+    "pylon": ">= 1.2.7"
+  }
+}

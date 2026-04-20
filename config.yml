@@ -1,0 +1,12 @@
+base_path: /data/syngen
+
+# Docker execution settings
+docker:
+  enabled: true
+  container_name: syngen_runner
+  # Shared volume path inside syngen container
+  syngen_artifacts_path: /src/model_artifacts
+  # Command format: "docker" for tdspora/syngen image (python3 -m start --task=)
+  #                 "cli" for pip-installed syngen or syngen-arm64 image (train/infer commands)
+  # Use "cli" for ARM64/Apple Silicon development
+  command_format: cli

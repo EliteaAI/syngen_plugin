@@ -1,0 +1,17 @@
+# Docker Compose for local development on Apple Silicon (ARM64)
+# This uses the custom syngen-arm64 image built from docker/Dockerfile.arm64
+
+services:
+  syngen_runner:
+    image: syngen-arm64
+    container_name: syngen_runner
+    platform: linux/arm64
+    entrypoint: ["/bin/bash", "-c"]
+    command: ["tail -f /dev/null"]
+    volumes:
+      - syngen_workspace:/src/model_artifacts
+    restart: unless-stopped
+
+volumes:
+  syngen_workspace:
+    driver: local
